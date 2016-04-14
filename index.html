@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>YouTube Search</title>
+</head>
+
+<body>
+	<div ="header">YOUTUBE VIDEO SEARCHER</div>
+	<form id = "search">
+		<p>Enter Search Query
+			<input type = "text" id = "query">
+		</p>
+		<p>Order Results By
+			<input type = "radio" name = "orderBy" value = "viewCount">View Count
+			<input type = "radio" name = "orderBy" value = "date">Date
+			<input type = "radio" name = "orderBy" value = "relevance">Relevance
+		</p>
+		<p>Number of Results
+			<input type = "radio" name = "numResults" value = "5">5
+			<input type = "radio" name = "numResults" value = "10">10
+			<input type = "radio" name = "numResults" value = "20">20
+		</p>
+		<input type = "submit">
+		<div id = "searchResults">
+		</div>
+	</form>
+<!-- JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/apps.js"></script>
+</body>
+</html>
